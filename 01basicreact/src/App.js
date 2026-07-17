@@ -1,4 +1,4 @@
-import MSG from "./msg";
+import MSG from "./Msg";
 function App() {
   return (
     <MSG/>
