@@ -6,7 +6,7 @@ const Card = () => {
   <img
     src="/Images/rajgad.png"
     alt="Rajgad"
-    width={'300px'} height={'auto'}
+    width={'500px'} height={'auto'}
 />
 
   <div className="absolute inset-0 bg-black/40"></div>
