@@ -15,7 +15,11 @@ function App() {
 
   const removeValue = () =>{
    
-    setCounter(counter - 1)
+    setCounter(counter + 1)
+    setCounter(counter + 1)
+    setCounter(counter + 1)
+    setCounter(counter + 1)
+    setCounter(counter + 1)
   }
 
 
