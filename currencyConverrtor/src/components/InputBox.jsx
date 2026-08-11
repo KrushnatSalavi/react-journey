@@ -1,6 +1,6 @@
 import React from 'react'
 
-const input = () => {
+const InputBox = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const input = () => {
   )
 }
 
-export default input
+export default InputBox
