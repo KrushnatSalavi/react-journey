@@ -2,6 +2,14 @@ import React, { useId } from 'react'
 
 function InputBox({
   label,
+  amount,
+  onAmountChange,
+  onCurrencyChange,
+  currencyOption = [],
+  selectCurrency = "usd",
+  amountDisable = false,
+  currencyDisable = false,
+
 
 }) {
   const amountInputId = useId()
@@ -16,6 +24,9 @@ function InputBox({
           className="outline-none w-full bg-transparent py-1.5"
           type="number"
           placeholder="Amount"
+          disabled={amountDisable}
+          value={amount}
+          onChange={(e) =>}
         />
       </div>
       <div className="w-1/2 flex flex-wrap justify-end text-right">
