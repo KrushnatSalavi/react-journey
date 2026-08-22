@@ -2,8 +2,8 @@ import React from 'react'
 
 const Github = () => {
   return (
-    <div>
-      
+    <div className='text-center m-4 bg-gray-600 text-whitep-4 text-3xl'>
+      Github Followers    
     </div>
   )
 }
