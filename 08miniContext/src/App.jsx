@@ -1,13 +1,12 @@
-import { useState } from 'react'
 import './App.css'
+import UserContext from './context/UserContext'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
-    <>
-    <h1>React with Krushna</h1>
-    </>
+    <UserContext>
+      <h1>React With Krushna</h1>
+    </UserContext>
   )
 }
 
