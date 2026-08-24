@@ -1,12 +1,16 @@
 import './App.css'
-import UserContext from './context/UserContext'
+import Login from './components/Login'
+import Profile from './components/Profile'
+import UserContextProvider from './context/UserContextProvider'
 
 function App() {
   
   return (
-    <UserContext>
+    <UserContextProvider>
       <h1>React With Krushna</h1>
-    </UserContext>
+      <Login/>
+      <Profile/>
+    </UserContextProvider>
   )
 }
 
